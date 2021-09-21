@@ -1,0 +1,55 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    background-color: #f1f1f1;
+}
+header{
+    grid-column:1/5 ;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    background-color: black;
+}
+li{
+    grid-column:1/5;
+   display:inline;
+   color:white ;
+   margin: 20px;
+   justify-content:space-around ;
+
+}
+
+h1{
+    grid-column: 1/5;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section{
+    display: grid;
+    grid-column:1/5 ;
+    gap: 10px;
+
+
+}
+
+img{
+    
+    grid-column:2/4 ;
+    border: 5px solid black ;
+}
+.one{
+    grid-column:1/2;
+}
+
+.two{
+    grid-column: 2/3;
+}
+.three{
+    grid-column:3/4 ;
+
+}
+
+    
+  
